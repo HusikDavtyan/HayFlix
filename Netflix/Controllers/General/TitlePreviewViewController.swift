@@ -48,14 +48,11 @@ class TitlePreviewViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .black
-
         view.addSubview(webView)
         view.addSubview(titleLabel)
         view.addSubview(overviewLabel)
         view.addSubview(downloadButton)
-        
         configureConstraints()
-
     }
     
     func configureConstraints() {

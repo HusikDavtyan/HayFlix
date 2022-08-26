@@ -146,8 +146,6 @@ extension SearchViewController: UISearchResultsUpdating{
         }
     }
     
-    
-    
 //    func searchResultsViewControllerDidTapItem(_ viewModel: TitlePreviewViewModel) {
 //
 //        DispatchQueue.main.async { [weak self] in
